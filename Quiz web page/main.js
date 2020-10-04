@@ -45,8 +45,21 @@ function marks() {
 		trueValues++;
 	}
 
+var notes= ["Hmmmm", "Okay,we can work with this..","Great! You can do more.." ,"Wow! You are well educated!"];
+if (trueValues == 0 || trueValues == 1){
+	document.getElementById("note").innerHTML= notes[0];
+}
+if (trueValues == 2){
+	document.getElementById("note").innerHTML= notes[1];
+}
+if (trueValues == 3){
+	document.getElementById("note").innerHTML= notes[2];
+}
+if (trueValues == 4){
+	document.getElementById("note").innerHTML= notes[3];
+}
     document.getElementById("afterSubmit").style.visibility = "visible";
-    document.getElementById("numberCorrect").innerHTML = trueValues + " / 4";
+ 	document.getElementById("numberCorrect").innerHTML = "YOU GOT " + trueValues + " of 4 Questions!";
 }
 
 
