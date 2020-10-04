@@ -46,7 +46,7 @@ function marks() {
 		trueValues++;
 	}
 var notes=["hmmmm!","okay we can work with this ..","great!you can do more","WOW!! you are well educated!"];
-var images=["imge/one.gif","imge/two.gif","imge/three.gif","imge/four.gif"];
+var images=["imge/one.gif","imge/two.gif","imge/three.gif","/four.gif"];
 
 
  if (trueValues==0||trueValues==1){
