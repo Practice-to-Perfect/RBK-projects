@@ -1,3 +1,4 @@
+
 // //each function
 // function each(coll, f) {
 // if(Array.isArray(coll)) {
