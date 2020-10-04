@@ -4,7 +4,19 @@ body {
 }
 
 #afterSubmit {
-	visibility: hidden;
+    visibility: hidden;
+    background: lightgrey;
+    padding:10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#image {
+	width: 375px;
+	height: 245px;
 }
 
 body {
@@ -12,7 +24,7 @@ body {
     color: purple;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     background-size: 100% 200%;
-    animation: Gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
 }
 
 #button {
@@ -25,13 +37,25 @@ body {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
   cursor: pointer;
+  border-radius: 20px
 }
+
  #quiz {
  	border: solid;
  	border-radius: 20px
  }
+
  input {
  	margin-bottom: 4px
  }
+
+#button:hover {
+	background: grey;
+	border: solid pink;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px
+}
+
