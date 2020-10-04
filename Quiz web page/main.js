@@ -48,5 +48,5 @@ if (document.getElementById("Q").value != "") {
 }
 
 function canStart(){
-	alert("You can start your exam now!")
+	alert("You can start your quiz now!")
 }
