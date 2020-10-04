@@ -1,6 +1,61 @@
-/*google font (Bangers)*/
+/*google font (Lato)*/
 body {
-	font-family: 'Bangers', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
+#afterSubmit {
+    visibility: hidden;
+    background: lightgrey;
+    padding:10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#image {
+	width: 375px;
+	height: 245px;
+}
+
+body {
+	text-align: center;
+    color: purple;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 100% 200%;
+    animation: gradient 15s ease infinite;
+}
+
+#button {
+  background-color: lightgrey;
+  border: none;
+  color: purple;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  border-radius: 20px
+}
+
+ #quiz {
+ 	border: solid;
+ 	border-radius: 20px
+ }
+
+ input {
+ 	margin-bottom: 4px
+ }
+
+#button:hover {
+	background: grey;
+	border: solid pink;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px
+}
 

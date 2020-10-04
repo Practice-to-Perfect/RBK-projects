@@ -45,8 +45,8 @@ function marks() {
 	if(Q4 === "Amazon") {
 		trueValues++;
 	}
-var notes=["hmmmm!","okay we can work with this ..","great!you can do more","WOW!! you are well educated!"];
-var images=["imge/one.gif","imge/two.gif","imge/three.gif","/four.gif"];
+var notes=["Hmmmm!","Okay we can work with this..","Great! You can do more..","Wow! You're well educated!"];
+var images=["imge/onee.png","imge/twoo.jpg","imge/three.jpg","imge/fourr.png"];
 
 
  if (trueValues==0||trueValues==1){
@@ -55,12 +55,12 @@ var images=["imge/one.gif","imge/two.gif","imge/three.gif","/four.gif"];
 }
  if (trueValues==2){
 	document.getElementById("note").innerHTML= notes[1];
-	document.getElementById("image").src=images[1];
+	 document.getElementById("image").src=images[1];
 }
 
 if (trueValues==3){
 	document.getElementById("note").innerHTML= notes[2];
-	document.getElementById("image").src=images[2];
+	 document.getElementById("image").src=images[2];
 }
  if (trueValues==4){
 	document.getElementById("note").innerHTML= notes[3];
@@ -70,11 +70,10 @@ if (trueValues==3){
 
 
     document.getElementById("afterSubmit").style.visibility = "visible";
- 	document.getElementById("numberCorrect").innerHTML = "YOU GOT " + trueValues + " of 4 Questions!";
+ 	document.getElementById("numberCorrect").innerHTML = "You got " + trueValues + " right of 4 Questions!";
 
 
 }
 
 
-////comment
 
