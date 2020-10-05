@@ -5,7 +5,6 @@ body {
   color: purple;
   background: linear-gradient(60deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 100% 200%;
-  animation: gradient 15s ease infinite;
 }
 
 #afterSubmit {
@@ -35,30 +34,38 @@ p {
   color: white;
 }
 
-#button {
+#button { /*submit button */
   background-color: lightgrey;
   color: purple;
-  padding: 16px 32px;
+  padding: 10px 30px;
   text-align: center;
-  text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.5s;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+#button:hover {
+  background: grey;
+  border: solid pink;
+  color: white;
   cursor: pointer;
   border-radius: 20px;
 }
 
-#subscribe{
+#subscribe{ /*subscribe button */
   background-color: lightgrey;
   color: purple;
   padding: 10px 15px;
   text-align: center;
-  text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.5s;
   cursor: pointer;
   border-radius: 20px;
+  font-weight: bold;
 }
 #subscribe:hover {
   background: grey;
@@ -68,25 +75,13 @@ p {
   border-radius: 20px;
 }
 
-
-
- #quiz {
+ #quiz { /*the whole form */
  	border: solid;
  	border-radius: 20px;
  }
 
- input {
- 	margin-bottom: 8px;
+ input { /*our options*/
+ 	margin-bottom: 3px;
  }
-
-#button:hover {
-	background: grey;
-	border: solid pink;
-	color: white;
-	cursor: pointer;
-	border-radius: 20px;
-}
-
-
 
 

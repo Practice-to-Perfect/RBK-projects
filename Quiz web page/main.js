@@ -23,29 +23,26 @@ function marks() {
 var notes=["Hmmmm!","Okay we can work with this..","Great! You can do more..","Wow! You're well educated!"];
 var images=["imge/1.gif","imge/2.gif","imge/3.gif","imge/44.gif"];
 
-if (document.getElementById("Q").value != "") {
- if (trueValues==0||trueValues==1){
+if (trueValues==0||trueValues==1){
 	document.getElementById("note").innerHTML= notes[0];
 	document.getElementById("image").src=images[0];
 } 
- else if (trueValues==2){
+if (trueValues==2){
 	document.getElementById("note").innerHTML= notes[1];
 	 document.getElementById("image").src=images[1];
 }
- else if (trueValues==3||trueValues==4){
+if (trueValues==3||trueValues==4){
 	document.getElementById("note").innerHTML= notes[2];
 	 document.getElementById("image").src=images[2];
 }
- else if (trueValues==5){
+if (trueValues==5){
 	document.getElementById("note").innerHTML= notes[3];
 	document.getElementById("image").src=images[3];
-} else {
-	alert("You must answer the questions");
 } 
-}
     document.getElementById("afterSubmit").style.visibility = "visible";
  	document.getElementById("numberCorrect").innerHTML = "You got " + trueValues + " right of 5 Questions!";
 }
+
 
 function canStart(){
 	alert("You can start your quiz now!")
