@@ -21,7 +21,7 @@ function marks() {
 		trueValues++;
 	}
 var notes=["Hmmmm!","Okay we can work with this..","Great! You can do more..","Wow! You're well educated!"];
-var images=["imge/1.gif","imge/2.gif","imge/3.gif","imge/4.gif"];
+var images=["imge/1.gif","imge/2.gif","imge/3.gif","imge/44.gif"];
 
 if (document.getElementById("Q").value != "") {
  if (trueValues==0||trueValues==1){
